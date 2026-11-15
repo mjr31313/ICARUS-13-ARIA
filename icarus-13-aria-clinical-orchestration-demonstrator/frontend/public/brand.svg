@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <defs>
+    <!-- Refined brushed metallic silver gradient -->
+    <linearGradient id="icarus-silver-metallic" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="25%" stop-color="#cfd4dc" />
+      <stop offset="50%" stop-color="#8d95a5" />
+      <stop offset="72%" stop-color="#e8ecf2" />
+      <stop offset="100%" stop-color="#9da5b4" />
+    </linearGradient>
+
+    <!-- Subdued brushed metallic silver gradient -->
+    <linearGradient id="icarus-silver-subdued" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d0d5dd" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#98a2b3" />
+    </linearGradient>
+
+    <!-- Soft edge highlight gradient -->
+    <linearGradient id="icarus-edge-glow" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+
+    <!-- Official ICARUS Winged Crest Emblem -->
+    <g id="icarus-emblem">
+      <!-- Center Spear Blade -->
+      <path d="M50 8 L54 18 L54 62 L50 72 L46 62 L46 18 Z" fill="url(#icarus-silver-metallic)" />
+      <path d="M50 8 L54 18 L54 62 L50 72 Z" fill="#ffffff" opacity="0.35" />
+
+      <!-- Center Inner Flank Left -->
+      <path d="M43 24 L45 28 L45 56 L43 59 Z" fill="url(#icarus-silver-metallic)" opacity="0.85" />
+      <!-- Center Inner Flank Right -->
+      <path d="M57 24 L55 28 L55 56 L57 59 Z" fill="url(#icarus-silver-metallic)" opacity="0.85" />
+
+      <!-- Upper Wing Blade Left -->
+      <path d="M12 21 C24 32 37 45 47 52 C38 41 28 32 12 21 Z" fill="url(#icarus-silver-metallic)" />
+      <!-- Upper Wing Outer Edge Sweep Left -->
+      <path d="M12 21 C20 30 32 40 47 52 C45 52 35 42 22 32 Z" fill="#ffffff" opacity="0.3" />
+
+      <!-- Upper Wing Blade Right -->
+      <path d="M88 21 C76 32 63 45 53 52 C62 41 72 32 88 21 Z" fill="url(#icarus-silver-metallic)" />
+      <!-- Upper Wing Outer Edge Sweep Right -->
+      <path d="M88 21 C80 30 68 40 53 52 C55 52 65 42 78 32 Z" fill="#ffffff" opacity="0.3" />
+
+      <!-- Lower Wing Blade Left -->
+      <path d="M22 36 C32 43 41 49 47 54 C39 48 31 43 22 36 Z" fill="url(#icarus-silver-subdued)" />
+      <!-- Lower Wing Blade Right -->
+      <path d="M78 36 C68 43 59 49 53 54 C61 48 69 43 78 36 Z" fill="url(#icarus-silver-subdued)" />
+
+      <!-- Third Wing Under Sweep Left -->
+      <path d="M24 45 C34 50 42 54 48 57 C40 54 32 50 24 45 Z" fill="url(#icarus-silver-metallic)" opacity="0.75" />
+      <!-- Third Wing Under Sweep Right -->
+      <path d="M76 45 C66 50 58 54 52 57 C60 54 68 50 76 45 Z" fill="url(#icarus-silver-metallic)" opacity="0.75" />
+    </g>
+
+    <!-- ARIA Horizon Arc Emblem (From official ARIA brand asset) -->
+    <g id="aria-arc">
+      <path d="M10 28 C 65 -2, 175 -2, 230 28 C 175 4, 65 4, 10 28 Z" fill="url(#icarus-silver-metallic)" />
+      <!-- Lens glow peak on top horizon -->
+      <ellipse cx="120" cy="8" rx="28" ry="2.2" fill="#ffffff" opacity="0.85" />
+    </g>
+  </defs>
+</svg>
