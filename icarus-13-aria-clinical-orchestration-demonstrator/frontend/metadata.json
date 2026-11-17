@@ -1,7 +1,0 @@
-{
-  "name": "ICARUS / ARIA Clinical Orchestration Demonstrator",
-  "description": "Institutional-grade demonstrator showcasing the ICARUS clinical orchestration infrastructure and ARIA conversational intelligence overlay operating above existing hospital systems of record.",
-  "requestFramePermissions": [
-    "microphone"
-  ]
-}
